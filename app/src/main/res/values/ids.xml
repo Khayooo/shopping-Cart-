@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="lvItems" type="id" />
+    <item name="lvCart" type="id" />
+    <item name="tvTotalItems" type="id" />
+    <item name="tvTotalAmount" type="id" />
+    <item name="tvSalesTax" type="id" />
+    <item name="tvGrossAmount" type="id" />
+    <item name="tvItemList" type="id" />
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/total_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Total Items: "/>
+
+    <TextView
+        android:id="@+id/total_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Total Amount: "/>
+
+    <TextView
+        android:id="@+id/sales_tax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Sales Tax (17.5%): "/>
+
+    <TextView
+        android:id="@+id/gross_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Gross Amount: "/>
+
+    <Button
+        android:id="@+id/close_app_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close the App"/>
+</LinearLayout>
